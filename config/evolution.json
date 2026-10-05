@@ -1,0 +1,3118 @@
+{
+ "generation": 396,
+ "lessons": [
+  "游击袭扰是最优核心战术:累计约1968次发令、阵亡107、受击率仅0.054,以",
+  "集火秒杀是高效收割手段:发令约140次、阵亡14、受击率0.108,专杀残血与孤",
+  "残血拉扯杠杆效应显著:通过诱敌深入、示弱麻痹(如'麻痹吕''苦肉计·诱敌深入')",
+  "方阵是好盾非万能:成阵期间玩家受击0、有效免伤,但本波4s成阵即于4s被破、未形"
+ ],
+ "plan_stats": {
+  "直攻": {
+   "issued": 2430,
+   "hits": 3153,
+   "deaths": 163
+  },
+  "集火": {
+   "issued": 2387,
+   "hits": 3092,
+   "deaths": 111
+  },
+  "方阵": {
+   "issued": 2324,
+   "hits": 4689,
+   "deaths": 183
+  },
+  "游击": {
+   "issued": 1994,
+   "hits": 2594,
+   "deaths": 108
+  },
+  "山地占领": {
+   "issued": 194,
+   "hits": 27131,
+   "deaths": 838
+  },
+  "右翼突袭": {
+   "issued": 45,
+   "hits": 30,
+   "deaths": 2
+  },
+  "右翼包抄": {
+   "issued": 70,
+   "hits": 27,
+   "deaths": 2
+  },
+  "右翼合围": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼推进": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破": {
+   "issued": 44,
+   "hits": 21,
+   "deaths": 6
+  },
+  "集火压制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "侧翼牵制": {
+   "issued": 7,
+   "hits": 27,
+   "deaths": 1
+  },
+  "山地占领-右翼包": {
+   "issued": 64,
+   "hits": 42,
+   "deaths": 2
+  },
+  "山地占领-左翼包": {
+   "issued": 119,
+   "hits": 146,
+   "deaths": 9
+  },
+  "山地占领-中路突": {
+   "issued": 63,
+   "hits": 174,
+   "deaths": 7
+  },
+  "山地占领-右翼预": {
+   "issued": 3,
+   "hits": 16,
+   "deaths": 0
+  },
+  "山地占领-左翼预": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·左翼包": {
+   "issued": 79,
+   "hits": 69,
+   "deaths": 2
+  },
+  "山地占领·右翼包": {
+   "issued": 33,
+   "hits": 16,
+   "deaths": 1
+  },
+  "山地占领·中路牵": {
+   "issued": 27,
+   "hits": 26,
+   "deaths": 2
+  },
+  "中路突破·直攻": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·左翼延": {
+   "issued": 6,
+   "hits": 18,
+   "deaths": 0
+  },
+  "侧翼牵制·右翼延": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "高地占领·左翼迂": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·右翼侧": {
+   "issued": 2,
+   "hits": 94,
+   "deaths": 0
+  },
+  "集火秒杀": {
+   "issued": 158,
+   "hits": 1070,
+   "deaths": 14
+  },
+  "残血退守": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火攻营": {
+   "issued": 4,
+   "hits": 29,
+   "deaths": 0
+  },
+  "右翼牵制": {
+   "issued": 21,
+   "hits": 50,
+   "deaths": 0
+  },
+  "钳形合围": {
+   "issued": 16,
+   "hits": 16,
+   "deaths": 0
+  },
+  "左翼包抄": {
+   "issued": 50,
+   "hits": 16,
+   "deaths": 1
+  },
+  "攻大营": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-中路突": {
+   "issued": 15,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血保护-后排待": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地-侧": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 2
+  },
+  "快速单位-直攻玩": {
+   "issued": 2,
+   "hits": 18,
+   "deaths": 0
+  },
+  "Boss牵制-集": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "合火必杀": {
+   "issued": 12,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血后撤": {
+   "issued": 15,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-右翼合": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭-集火秒": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 2
+  },
+  "狙击高地-风筝压": {
+   "issued": 24,
+   "hits": 6,
+   "deaths": 2
+  },
+  "中路牵制-保护大": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "Boss集火-主": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队-残血后撤": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼延": {
+   "issued": 6,
+   "hits": 23,
+   "deaths": 0
+  },
+  "山地占领-左翼延": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地": {
+   "issued": 24,
+   "hits": 67,
+   "deaths": 1
+  },
+  "中路突破集火": {
+   "issued": 26,
+   "hits": 25,
+   "deaths": 0
+  },
+  "预备队": {
+   "issued": 18,
+   "hits": 10,
+   "deaths": 1
+  },
+  "高地压制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地": {
+   "issued": 36,
+   "hits": 23,
+   "deaths": 4
+  },
+  "直攻突破": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "快速穿插": {
+   "issued": 7,
+   "hits": 13,
+   "deaths": 2
+  },
+  "后排待命": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-左翼快": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-中路坦": {
+   "issued": 7,
+   "hits": 3,
+   "deaths": 2
+  },
+  "山地占领-右翼游": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领- sn": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼快": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼突": {
+   "issued": 44,
+   "hits": 21,
+   "deaths": 2
+  },
+  "方阵推进压制": {
+   "issued": 10,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血后撤恢复": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血后排休整": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 1
+  },
+  "快速穿插游击": {
+   "issued": 3,
+   "hits": 36,
+   "deaths": 0
+  },
+  "中路集火合围": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火收割": {
+   "issued": 24,
+   "hits": 17,
+   "deaths": 1
+  },
+  "合围包抄": {
+   "issued": 6,
+   "hits": 21,
+   "deaths": 0
+  },
+  "正面牵制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占高地": {
+   "issued": 28,
+   "hits": 33,
+   "deaths": 2
+  },
+  "左翼拦截": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队策应": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀残血单位": {
+   "issued": 6,
+   "hits": 22,
+   "deaths": 1
+  },
+  "狙击手集火敌方大": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "坦克推进,挤压玩": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄集火,钳": {
+   "issued": 17,
+   "hits": 0,
+   "deaths": 2
+  },
+  "左翼包抄牵制,合": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队待命,保护": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 1
+  },
+  "火力覆盖": {
+   "issued": 10,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制": {
+   "issued": 9,
+   "hits": 24,
+   "deaths": 2
+  },
+  "集火必杀": {
+   "issued": 18,
+   "hits": 0,
+   "deaths": 2
+  },
+  "右翼穿插": {
+   "issued": 10,
+   "hits": 19,
+   "deaths": 1
+  },
+  "狙击压制": {
+   "issued": 13,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队待命": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄攻营": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼牵制攻营": {
+   "issued": 4,
+   "hits": 6,
+   "deaths": 0
+  },
+  "远程袭扰攻营": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队支援": {
+   "issued": 13,
+   "hits": 8,
+   "deaths": 1
+  },
+  "集中狙击手风筝压": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进中路突破": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼快速包抄,侧": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀敌10残": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 2
+  },
+  "右翼包抄,合围之": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队中路支援,": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄集火": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄集火": {
+   "issued": 15,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破推进": {
+   "issued": 4,
+   "hits": 1,
+   "deaths": 1
+  },
+  "狙击高地压制": {
+   "issued": 13,
+   "hits": 5,
+   "deaths": 0
+  },
+  "预备队迂回": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "侧翼游击袭扰": {
+   "issued": 7,
+   "hits": 1,
+   "deaths": 0
+  },
+  "山地占领-高地火": {
+   "issued": 41,
+   "hits": 130,
+   "deaths": 4
+  },
+  "预备队-机动支援": {
+   "issued": 8,
+   "hits": 5,
+   "deaths": 1
+  },
+  "集火秒杀-合火必": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄牵制": {
+   "issued": 2,
+   "hits": 24,
+   "deaths": 0
+  },
+  "残血退后排": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地风筝": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击侧翼支援": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进压缩空间": {
+   "issued": 8,
+   "hits": 6,
+   "deaths": 1
+  },
+  "右翼包抄合围": {
+   "issued": 33,
+   "hits": 0,
+   "deaths": 0
+  },
+  "坦克中路突破": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火击杀吕布bo": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "风筝牵制": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄牵制": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血单位后撤": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 1
+  },
+  "右翼突袭穿插": {
+   "issued": 10,
+   "hits": 1,
+   "deaths": 0
+  },
+  "狙击占领侧翼高地": {
+   "issued": 8,
+   "hits": 11,
+   "deaths": 1
+  },
+  "残血集火": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进": {
+   "issued": 35,
+   "hits": 23,
+   "deaths": 1
+  },
+  "合围压缩": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰": {
+   "issued": 35,
+   "hits": 35,
+   "deaths": 0
+  },
+  "牵制Boss": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀中路残敌": {
+   "issued": 10,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄集火,攻": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼穿插袭扰,攻": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄,攻大营": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击手占高地风筝": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 1
+  },
+  "右翼远程牵制,攻": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀残血,三": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "右翼包抄,钳形攻": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼穿插,压缩玩": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "快速部队侧翼突袭": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进,密集防": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击手占高地侧翼": {
+   "issued": 14,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄协同,合": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "狙击手控场,保留": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "坦克推进,保护残": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队待命,视机": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀收割残血": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄推进,压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破集火,配": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 1
+  },
+  "残血单位后撤保护": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "坦克方阵推进,火": {
+   "issued": 3,
+   "hits": 5,
+   "deaths": 0
+  },
+  "狙击手侧翼牵制,": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "主攻": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀玩家(残": {
+   "issued": 6,
+   "hits": 4,
+   "deaths": 1
+  },
+  "左翼包抄推进,方": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄攻大营": {
+   "issued": 6,
+   "hits": 1,
+   "deaths": 0
+  },
+  "右翼快速穿插夹击": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火敌方大营(d": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  " sniper集": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 2
+  },
+  "坦克推进": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼方阵": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "侧翼游击": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼集火突袭残血": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火敌方大营推进": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "合火必杀攻大营": {
+   "issued": 10,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火收割玩家": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 3
+  },
+  "狙击占领侧翼制压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "快速穿插集火": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进压缩": {
+   "issued": 17,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼穿": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-左翼推": {
+   "issued": 3,
+   "hits": 7,
+   "deaths": 0
+  },
+  "左翼集火": {
+   "issued": 7,
+   "hits": 15,
+   "deaths": 0
+  },
+  "中路推进": {
+   "issued": 9,
+   "hits": 4,
+   "deaths": 0
+  },
+  "高地狙击压制": {
+   "issued": 10,
+   "hits": 3,
+   "deaths": 0
+  },
+  "翼侧包抄": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击牵制": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  "合火必杀收割玩家": {
+   "issued": 12,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀残血目标": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击手高地压制风": {
+   "issued": 6,
+   "hits": 6,
+   "deaths": 0
+  },
+  "右翼包抄夹击玩家": {
+   "issued": 5,
+   "hits": 26,
+   "deaths": 0
+  },
+  "山地占领·右翼突": {
+   "issued": 38,
+   "hits": 19,
+   "deaths": 1
+  },
+  "山地占领·中路突": {
+   "issued": 26,
+   "hits": 39,
+   "deaths": 3
+  },
+  "左翼包抄支援": {
+   "issued": 1,
+   "hits": 8,
+   "deaths": 1
+  },
+  "攻取敌方大营": {
+   "issued": 9,
+   "hits": 27,
+   "deaths": 1
+  },
+  "预备队控场": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破集火收割": {
+   "issued": 12,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地风筝压制": {
+   "issued": 14,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄钳形攻势": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  "Boss主攻牵制": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄推进": {
+   "issued": 10,
+   "hits": 19,
+   "deaths": 0
+  },
+  "左翼包抄推进": {
+   "issued": 11,
+   "hits": 22,
+   "deaths": 0
+  },
+  "右翼穿插牵制": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队侧翼支援": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血单位后撤休整": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破·集火压": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血退防·后排重": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占高·风筝压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地·侧翼火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进·中路压": {
+   "issued": 3,
+   "hits": 6,
+   "deaths": 0
+  },
+  "方阵推进·侧翼支": {
+   "issued": 3,
+   "hits": 33,
+   "deaths": 0
+  },
+  "右翼游击·袭扰包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄·钳形合": {
+   "issued": 12,
+   "hits": 18,
+   "deaths": 1
+  },
+  "集火秒杀收割": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼集火压制": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 1
+  },
+  "坦克推进挤压": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 1
+  },
+  "狙击高地火力覆盖": {
+   "issued": 4,
+   "hits": 4,
+   "deaths": 0
+  },
+  "左翼包抄合围": {
+   "issued": 17,
+   "hits": 14,
+   "deaths": 1
+  },
+  "预备队侧翼策应": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼远程支援": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼游击": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄突袭": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼牵制推进": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄合火": {
+   "issued": 5,
+   "hits": 7,
+   "deaths": 0
+  },
+  "坦克推进压制": {
+   "issued": 1,
+   "hits": 14,
+   "deaths": 0
+  },
+  "狙击占高地压制": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击侧翼风筝": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队迂回包抄": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀中路突破": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地集火": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀玩家": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "保护残血退后排": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火攻敌方大营": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄大营": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼牵制玩家": {
+   "issued": 8,
+   "hits": 2,
+   "deaths": 0
+  },
+  "铁壁方阵推进压缩": {
+   "issued": 3,
+   "hits": 10,
+   "deaths": 0
+  },
+  "右翼快速穿插包抄": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制集火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血单位退后排": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 1
+  },
+  "游击袭扰预备队": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "前排坦克推进": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火敌方大营": {
+   "issued": 6,
+   "hits": 9,
+   "deaths": 0
+  },
+  "方阵推进攻大营": {
+   "issued": 7,
+   "hits": 3,
+   "deaths": 0
+  },
+  "左翼牵制集火": {
+   "issued": 3,
+   "hits": 18,
+   "deaths": 0
+  },
+  "右翼穿插攻大营": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队收割残血": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "合围牵制": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·占领高": {
+   "issued": 5,
+   "hits": 11,
+   "deaths": 1
+  },
+  "山地占领·侧翼火": {
+   "issued": 6,
+   "hits": 7,
+   "deaths": 0
+  },
+  "山地占领·预备队": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-右翼牵": {
+   "issued": 5,
+   "hits": 6,
+   "deaths": 0
+  },
+  "游击袭扰-左翼骚": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-中路牵": {
+   "issued": 9,
+   "hits": 7,
+   "deaths": 1
+  },
+  "游击袭扰-麻痹吕": {
+   "issued": 75,
+   "hits": 109,
+   "deaths": 6
+  },
+  "预备队-集火待机": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉计·诱敌": {
+   "issued": 3,
+   "hits": 14,
+   "deaths": 1
+  },
+  "山地占领·高地火": {
+   "issued": 43,
+   "hits": 86,
+   "deaths": 4
+  },
+  "右翼游击·袭扰": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄·合围": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·左翼占": {
+   "issued": 6,
+   "hits": 45,
+   "deaths": 0
+  },
+  "山地占领·右翼占": {
+   "issued": 6,
+   "hits": 11,
+   "deaths": 0
+  },
+  "中路牵制·试探骚": {
+   "issued": 3,
+   "hits": 19,
+   "deaths": 2
+  },
+  "游击袭扰·麻痹吕": {
+   "issued": 20,
+   "hits": 69,
+   "deaths": 0
+  },
+  "预备队·埋伏高地": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领·左翼高": {
+   "issued": 16,
+   "hits": 44,
+   "deaths": 0
+  },
+  "山地占领·右翼高": {
+   "issued": 20,
+   "hits": 67,
+   "deaths": 2
+  },
+  "山地占领·中央高": {
+   "issued": 6,
+   "hits": 5,
+   "deaths": 0
+  },
+  "游击袭扰·右翼牵": {
+   "issued": 9,
+   "hits": 23,
+   "deaths": 0
+  },
+  "中路突破·集火玩": {
+   "issued": 3,
+   "hits": 9,
+   "deaths": 0
+  },
+  "山地占领·中路火": {
+   "issued": 6,
+   "hits": 77,
+   "deaths": 1
+  },
+  "预备队·待命合围": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-侧翼包": {
+   "issued": 8,
+   "hits": 21,
+   "deaths": 0
+  },
+  "游击袭扰-右翼分": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-左翼分": {
+   "issued": 3,
+   "hits": 16,
+   "deaths": 0
+  },
+  "预备队·占高地火": {
+   "issued": 3,
+   "hits": 12,
+   "deaths": 0
+  },
+  "无中生有·右翼游": {
+   "issued": 3,
+   "hits": 1,
+   "deaths": 0
+  },
+  "无中生有·左翼游": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制·虚张声": {
+   "issued": 3,
+   "hits": 20,
+   "deaths": 2
+  },
+  "右翼突袭·快速穿": {
+   "issued": 12,
+   "hits": 1,
+   "deaths": 0
+  },
+  "游击袭扰·虚虚实": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·麻痹敌": {
+   "issued": 34,
+   "hits": 105,
+   "deaths": 3
+  },
+  "山地占领-占岭制": {
+   "issued": 6,
+   "hits": 1,
+   "deaths": 1
+  },
+  "游击袭扰-侧翼骚": {
+   "issued": 9,
+   "hits": 6,
+   "deaths": 0
+  },
+  "游击袭扰-右翼穿": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队·随时增援": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "占高地·重甲火力": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·右侧牵": {
+   "issued": 3,
+   "hits": 77,
+   "deaths": 0
+  },
+  "狙击占领高地·风": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地·侧": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占高地·远程": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血退后排·休整": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破-集火秒": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 2
+  },
+  "苦肉计-示弱诱敌": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地-风": {
+   "issued": 12,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领侧翼-火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭-快速穿": {
+   "issued": 18,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-侧翼牵": {
+   "issued": 20,
+   "hits": 53,
+   "deaths": 2
+  },
+  "右翼游击麻痹": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼快速穿插游击": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路方阵推进压制": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄配合": {
+   "issued": 2,
+   "hits": 6,
+   "deaths": 0
+  },
+  "残单位后撤重整": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 2
+  },
+  "中路集火压制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-左翼火": {
+   "issued": 9,
+   "hits": 5,
+   "deaths": 1
+  },
+  "山地占领-右翼火": {
+   "issued": 6,
+   "hits": 3,
+   "deaths": 0
+  },
+  "山地占领-中央压": {
+   "issued": 3,
+   "hits": 47,
+   "deaths": 0
+  },
+  "预备队-中路支援": {
+   "issued": 3,
+   "hits": 8,
+   "deaths": 0
+  },
+  "左翼包抄-钳形合": {
+   "issued": 23,
+   "hits": 93,
+   "deaths": 3
+  },
+  "山地占领-集火坦": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "占领高地-狙击压": {
+   "issued": 3,
+   "hits": 7,
+   "deaths": 0
+  },
+  "右翼包抄-集火残": {
+   "issued": 4,
+   "hits": 5,
+   "deaths": 0
+  },
+  "游击牵制-侧翼骚": {
+   "issued": 17,
+   "hits": 44,
+   "deaths": 0
+  },
+  "保护残血-退至后": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-占高地": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击骚扰-麻痹吕": {
+   "issued": 11,
+   "hits": 53,
+   "deaths": 0
+  },
+  "狙击占高地-侧翼": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-钳形攻": {
+   "issued": 12,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制-集火必": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队-保留20": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-中路集": {
+   "issued": 6,
+   "hits": 9,
+   "deaths": 0
+  },
+  "山地占领-右翼集": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-左翼牵": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-残血后": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-预备队": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领·右翼穿": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·中路压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·中路推": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 1
+  },
+  "集火秒杀·中路突": {
+   "issued": 3,
+   "hits": 9,
+   "deaths": 0
+  },
+  "狙击占领·高地火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队·机动支援": {
+   "issued": 8,
+   "hits": 7,
+   "deaths": 0
+  },
+  "残血撤退·后排待": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领中路突破": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 2
+  },
+  "右翼突袭包抄": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "右翼游击袭扰": {
+   "issued": 9,
+   "hits": 46,
+   "deaths": 1
+  },
+  "右翼快速穿插": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血后撤预备队": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-占领高": {
+   "issued": 29,
+   "hits": 16,
+   "deaths": 2
+  },
+  "游击袭扰-左翼佯": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火必杀-中路突": {
+   "issued": 5,
+   "hits": 9,
+   "deaths": 0
+  },
+  "狙击占领-高地火": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-虚张声": {
+   "issued": 9,
+   "hits": 14,
+   "deaths": 0
+  },
+  "集火必杀-右翼包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "主攻吕布-集火秒": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-麻痹敌": {
+   "issued": 29,
+   "hits": 7,
+   "deaths": 1
+  },
+  "狙击占高地-风筝": {
+   "issued": 12,
+   "hits": 7,
+   "deaths": 1
+  },
+  "集火必杀-中路牵": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼穿插-合围之": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-压缩空": {
+   "issued": 22,
+   "hits": 0,
+   "deaths": 1
+  },
+  "保护残血-后排支": {
+   "issued": 5,
+   "hits": 4,
+   "deaths": 1
+  },
+  "预备队-钳形合围": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "瞒天过海·集火吕": {
+   "issued": 10,
+   "hits": 0,
+   "deaths": 0
+  },
+  "铁骑阻敌": {
+   "issued": 2,
+   "hits": 1,
+   "deaths": 1
+  },
+  "山地占领·火力点": {
+   "issued": 5,
+   "hits": 50,
+   "deaths": 1
+  },
+  "游击袭扰吕布": {
+   "issued": 4,
+   "hits": 11,
+   "deaths": 0
+  },
+  "左翼残血退守": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击麻痹": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击麻痹-残血诱": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀-收割残": {
+   "issued": 4,
+   "hits": 24,
+   "deaths": 0
+  },
+  "集火秒杀-Bos": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破·占据高": {
+   "issued": 3,
+   "hits": 10,
+   "deaths": 2
+  },
+  "游击袭扰·虚张声": {
+   "issued": 6,
+   "hits": 1,
+   "deaths": 0
+  },
+  "山地占领-抢占高": {
+   "issued": 9,
+   "hits": 24,
+   "deaths": 0
+  },
+  "山地占领-占领右": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-中路高": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击牵制-直攻结": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·抢占高": {
+   "issued": 14,
+   "hits": 57,
+   "deaths": 0
+  },
+  "左翼包抄·方阵推": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  "直攻牵制·残血后": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼穿插·集火必": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血退守·游击袭": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-侧翼压": {
+   "issued": 11,
+   "hits": 10,
+   "deaths": 0
+  },
+  "狙击手占高地-风": {
+   "issued": 2,
+   "hits": 60,
+   "deaths": 0
+  },
+  "方阵推进-中路压": {
+   "issued": 6,
+   "hits": 8,
+   "deaths": 0
+  },
+  "直攻-预测位置拦": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-集火必": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼牵制-游击骚": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼游击-拉开距": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-占领左": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-狙击手": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "瞒天过海-游击袭": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右侧高": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-压缩玩": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血单位退后排待": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 2
+  },
+  "山地占领-占岭建": {
+   "issued": 6,
+   "hits": 20,
+   "deaths": 0
+  },
+  "山地占领-占岭控": {
+   "issued": 3,
+   "hits": 12,
+   "deaths": 0
+  },
+  "山地占领·抢占左": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·抢占右": {
+   "issued": 6,
+   "hits": 2,
+   "deaths": 0
+  },
+  "山地占领·中路高": {
+   "issued": 3,
+   "hits": 4,
+   "deaths": 1
+  },
+  "预备队·待命,伺": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼迂": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉计-诱敌深入": {
+   "issued": 10,
+   "hits": 10,
+   "deaths": 3
+  },
+  "狙击占领高地-集": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 0
+  },
+  "游击袭扰-拉扯敌": {
+   "issued": 5,
+   "hits": 47,
+   "deaths": 2
+  },
+  "山地占领-侧翼狙": {
+   "issued": 6,
+   "hits": 2,
+   "deaths": 1
+  },
+  "右翼包抄-快速穿": {
+   "issued": 8,
+   "hits": 15,
+   "deaths": 0
+  },
+  "集火秒杀-合围之": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "中路突破-主力压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "机动预备队-随时": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·高地压": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·侧翼包": {
+   "issued": 15,
+   "hits": 0,
+   "deaths": 2
+  },
+  "山地占领·方阵推": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击骚扰·麻痹吕": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·诱敌深": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地·火": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·中路集": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄+直攻,": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭快速穿插": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进密集防御": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·集火必": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·游击": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·游击袭": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·左翼预": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·右翼预": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破-集火b": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "侧翼包抄-抢占高": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击压制-高地火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "集火秒杀-左翼合": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀-中路突": {
+   "issued": 12,
+   "hits": 21,
+   "deaths": 0
+  },
+  "集火秒杀-中路跟": {
+   "issued": 4,
+   "hits": 3,
+   "deaths": 0
+  },
+  "右翼包抄-钳形合": {
+   "issued": 16,
+   "hits": 9,
+   "deaths": 0
+  },
+  "高地火力点·集火": {
+   "issued": 3,
+   "hits": 22,
+   "deaths": 0
+  },
+  "山地占领-右翼抢": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破-集火压": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 1
+  },
+  "钳形合围-压缩空": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地-火": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-压制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击-侧翼穿插": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领高地-f": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "瞒天过海·游击骚": {
+   "issued": 6,
+   "hits": 3,
+   "deaths": 1
+  },
+  "山地占领·侧翼狙": {
+   "issued": 11,
+   "hits": 9,
+   "deaths": 0
+  },
+  "瞒天过海·狙击风": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "残血退防·保护主": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀- sn": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭- 残血": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "方阵推进- 中路": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "左翼包抄- 钳形": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破- 主攻": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰- 麻痹": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队- 视机投": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉诱敌-集火收": {
+   "issued": 6,
+   "hits": 9,
+   "deaths": 1
+  },
+  "boss主攻牵制": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀残血-合": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地侧翼压制": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼快速穿插-大": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·侧翼高": {
+   "issued": 3,
+   "hits": 12,
+   "deaths": 0
+  },
+  "山地占领-集火玩": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队-支援战场": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领-侧翼高": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-游击骚": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-集火压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击-麻痹敌军": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击-残血后撤": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击-占领高地": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击-高地压制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击-侧翼火力": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火-秒杀脆皮": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "坦克突破-中路集": {
+   "issued": 2,
+   "hits": 2,
+   "deaths": 1
+  },
+  "山地占领·合围": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·高地": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·中军": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉计·示弱诱敌": {
+   "issued": 5,
+   "hits": 28,
+   "deaths": 1
+  },
+  "山地占领·狙击占": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血退后·游击骚": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "中路牵制·方阵推": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队·集火待命": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "直攻压制·压缩空": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄·合围之": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "占领高地": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击骚扰": {
+   "issued": 23,
+   "hits": 51,
+   "deaths": 1
+  },
+  "残血退后排·预备": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领·中央重": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·侧翼牵": {
+   "issued": 3,
+   "hits": 11,
+   "deaths": 1
+  },
+  "天衣无缝·游击麻": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "瞒天过海·诱敌深": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·残血后": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "预备队·持令不战": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·右翼火": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击穿插·右翼突": {
+   "issued": 6,
+   "hits": 47,
+   "deaths": 2
+  },
+  "苦肉计·诱敌深入": {
+   "issued": 9,
+   "hits": 4,
+   "deaths": 0
+  },
+  "残血退却·后排待": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占高·侧翼压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-左翼方": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-右翼方": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-残血后": {
+   "issued": 6,
+   "hits": 41,
+   "deaths": 2
+  },
+  "预备队-保护残血": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "调虎离山-左翼包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "调虎离山-快速穿": {
+   "issued": 2,
+   "hits": 9,
+   "deaths": 1
+  },
+  "右翼包抄-压制": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 0
+  },
+  "中路突破-集火玩": {
+   "issued": 11,
+   "hits": 25,
+   "deaths": 2
+  },
+  "预备队-补位": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭-集火": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领+游击包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼快速穿插": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "侧翼狙击火力点": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路集火突破": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队狙击支援": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰牵制": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火必杀-钳形合": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-中路压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-前排坚": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰-诱敌深": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "快速穿插-侧翼包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占领-侧翼压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "游击袭扰-残血诱": {
+   "issued": 3,
+   "hits": 26,
+   "deaths": 1
+  },
+  "山地占领·中路据": {
+   "issued": 3,
+   "hits": 13,
+   "deaths": 0
+  },
+  "游击袭扰·左翼包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄-协同合": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制-逐步压": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 2
+  },
+  "预备队-残血回撤": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 1
+  },
+  "中路突破·集火必": {
+   "issued": 6,
+   "hits": 7,
+   "deaths": 0
+  },
+  "山地占领·右翼延": {
+   "issued": 3,
+   "hits": 23,
+   "deaths": 0
+  },
+  "右翼包抄-集火秒": {
+   "issued": 6,
+   "hits": 48,
+   "deaths": 2
+  },
+  "快速穿插-直攻玩": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血退守-预备队": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "残血后撤-保护主": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "坦克推进-中路突": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "残血退后排-游击": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "集火必杀·中路压": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进·压缩空": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地·侧翼掩": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-狙击占": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 1
+  },
+  "山地占领-方阵推": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-游击袭": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 0
+  },
+  "山地占领-侧翼掩": {
+   "issued": 2,
+   "hits": 3,
+   "deaths": 0
+  },
+  "山地占领-中路推": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-左翼游": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "无中生有-游击": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "无中生有-佯动": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·侧翼压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "主力埋伏·集火待": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀-钳形合": {
+   "issued": 9,
+   "hits": 10,
+   "deaths": 0
+  },
+  "右翼包抄-游击袭": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼推进-阵列压": {
+   "issued": 6,
+   "hits": 3,
+   "deaths": 0
+  },
+  "残血后撤-预备队": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击占高地-残血": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-压缩敌": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火必杀-右翼牵": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "预备队-保护大营": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-左翼高": {
+   "issued": 7,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-方阵推": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-压缩空": {
+   "issued": 8,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击-残血诱敌,": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "游击袭扰-小骚扰": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼突袭-快速包": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "中路牵制-集火待": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-抢占左": {
+   "issued": 14,
+   "hits": 13,
+   "deaths": 0
+  },
+  "山地占领-抢占右": {
+   "issued": 14,
+   "hits": 28,
+   "deaths": 0
+  },
+  "游击袭扰-右翼快": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 1
+  },
+  "坦克推进-密集方": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血单位退后预备": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-右翼高": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 1
+  },
+  "方阵推进-中路合": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火必杀-残血优": {
+   "issued": 3,
+   "hits": 8,
+   "deaths": 0
+  },
+  "方阵防御-中路突": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队-左翼机动": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-集火大": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-压制大": {
+   "issued": 9,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼牵制-游击袭": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-抢占北": {
+   "issued": 5,
+   "hits": 8,
+   "deaths": 0
+  },
+  "山地占领-抢占东": {
+   "issued": 5,
+   "hits": 8,
+   "deaths": 0
+  },
+  "预备队-隐蔽待机": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-钳形合": {
+   "issued": 11,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-高地占": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击麻痹-日常骚": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血撤退-后排治": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领-火力压": {
+   "issued": 3,
+   "hits": 9,
+   "deaths": 0
+  },
+  "方阵推进-中路牵": {
+   "issued": 6,
+   "hits": 12,
+   "deaths": 0
+  },
+  "残血回撤-保护主": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队-随时集火": {
+   "issued": 3,
+   "hits": 6,
+   "deaths": 0
+  },
+  "集火秒杀-左翼突": {
+   "issued": 3,
+   "hits": 15,
+   "deaths": 0
+  },
+  "左翼包抄-钳形攻": {
+   "issued": 6,
+   "hits": 0,
+   "deaths": 0
+  },
+  "残血收割-集火补": {
+   "issued": 3,
+   "hits": 8,
+   "deaths": 0
+  },
+  "直攻破阵-中路牵": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "远程覆盖-横队火": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 0
+  },
+  "游击袭扰-后排骚": {
+   "issued": 2,
+   "hits": 21,
+   "deaths": 0
+  },
+  "集火秒杀-残血收": {
+   "issued": 6,
+   "hits": 14,
+   "deaths": 0
+  },
+  "狙击-占领侧翼高": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进-火力覆": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制-游击骚": {
+   "issued": 3,
+   "hits": 45,
+   "deaths": 0
+  },
+  "高地占领-火力点": {
+   "issued": 3,
+   "hits": 2,
+   "deaths": 0
+  },
+  "右翼穿插-游击袭": {
+   "issued": 3,
+   "hits": 18,
+   "deaths": 0
+  },
+  "方阵推进-侧翼火": {
+   "issued": 3,
+   "hits": 20,
+   "deaths": 0
+  },
+  "预备队-残血待命": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼推进": {
+   "issued": 3,
+   "hits": 11,
+   "deaths": 0
+  },
+  "中路集火·合围": {
+   "issued": 4,
+   "hits": 1,
+   "deaths": 0
+  },
+  "游击袭扰·侧翼牵": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "狙击高地·集火必": {
+   "issued": 3,
+   "hits": 10,
+   "deaths": 0
+  },
+  "左翼牵制": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制-集火玩": {
+   "issued": 3,
+   "hits": 7,
+   "deaths": 0
+  },
+  "直攻穿插-突袭玩": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 1
+  },
+  "残血退防-撤至后": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "攻大营-钳形攻势": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "攻大营-中路突破": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼包抄-防守推": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉计-示弱送头": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "攻大营-右翼包抄": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "集火秒杀·左翼包": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·左翼牵": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "重甲推进·中路突": {
+   "issued": 2,
+   "hits": 8,
+   "deaths": 0
+  },
+  "集火收割·残血优": {
+   "issued": 4,
+   "hits": 30,
+   "deaths": 0
+  },
+  "右翼合围·钳形攻": {
+   "issued": 4,
+   "hits": 1,
+   "deaths": 0
+  },
+  "预备队·视机而动": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路牵制·主帅亲": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "无中生有-左翼佯": {
+   "issued": 3,
+   "hits": 23,
+   "deaths": 0
+  },
+  "无中生有-右翼游": {
+   "issued": 3,
+   "hits": 9,
+   "deaths": 0
+  },
+  "中路牵制-集火低": {
+   "issued": 2,
+   "hits": 12,
+   "deaths": 0
+  },
+  "合火集火": {
+   "issued": 9,
+   "hits": 13,
+   "deaths": 0
+  },
+  "中路牵制-方阵推": {
+   "issued": 2,
+   "hits": 3,
+   "deaths": 0
+  },
+  "直攻-集火残血,": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领(左翼丘": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领(中路高": {
+   "issued": 3,
+   "hits": 36,
+   "deaths": 0
+  },
+  "山地占领(右翼高": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰(右翼佯": {
+   "issued": 3,
+   "hits": 47,
+   "deaths": 0
+  },
+  "预备队(中军待命": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路集火击杀吕布": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "方阵推进牵制": {
+   "issued": 1,
+   "hits": 5,
+   "deaths": 0
+  },
+  "集火秒杀·右翼合": {
+   "issued": 6,
+   "hits": 7,
+   "deaths": 0
+  },
+  "集火秒杀·右翼包": {
+   "issued": 6,
+   "hits": 22,
+   "deaths": 0
+  },
+  "直攻牵制·中路压": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "左翼待机·预备队": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "右翼包抄-集火收": {
+   "issued": 6,
+   "hits": 64,
+   "deaths": 1
+  },
+  "游击袭扰-直攻牵": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "游击袭扰·残血诱": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 1
+  },
+  "占领高地-建立火": {
+   "issued": 4,
+   "hits": 3,
+   "deaths": 1
+  },
+  "钳形包抄": {
+   "issued": 5,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领+合围": {
+   "issued": 6,
+   "hits": 5,
+   "deaths": 0
+  },
+  "山地占领+火力点": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 1
+  },
+  "右翼游击牵制": {
+   "issued": 3,
+   "hits": 21,
+   "deaths": 0
+  },
+  "直攻中路": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "苦肉诱敌": {
+   "issued": 1,
+   "hits": 0,
+   "deaths": 0
+  },
+  "钳形包抄·左翼迂": {
+   "issued": 3,
+   "hits": 3,
+   "deaths": 0
+  },
+  "山地占领·苦肉诱": {
+   "issued": 3,
+   "hits": 10,
+   "deaths": 0
+  },
+  "游击袭扰·示弱诱": {
+   "issued": 3,
+   "hits": 18,
+   "deaths": 0
+  },
+  "游击袭扰·左翼": {
+   "issued": 2,
+   "hits": 6,
+   "deaths": 0
+  },
+  "游击袭扰·右翼": {
+   "issued": 2,
+   "hits": 0,
+   "deaths": 0
+  },
+  "预备队·保护残血": {
+   "issued": 4,
+   "hits": 0,
+   "deaths": 0
+  },
+  "山地占领·占领左": {
+   "issued": 3,
+   "hits": 5,
+   "deaths": 1
+  },
+  "钳形包抄·侧翼牵": {
+   "issued": 3,
+   "hits": 0,
+   "deaths": 0
+  },
+  "中路突破-集火": {
+   "issued": 5,
+   "hits": 25,
+   "deaths": 0
+  },
+  "占领高地-火力点": {
+   "issued": 3,
+   "hits": 20,
+   "deaths": 0
+  },
+  "游击袭扰·分散佯": {
+   "issued": 3,
+   "hits": 24,
+   "deaths": 0
+  }
+ },
+ "total_kills": 2,
+ "updated": "2026-10-05 12:54:09"
+}

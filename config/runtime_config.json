@@ -1,0 +1,77 @@
+# v23.0
+{
+  "advisor_service": {
+    "description": "军师LLM服务配置（v16.1验证可用）",
+    "llm_url": "http://127.0.0.1:8083/v1/chat/completions",
+    "status_input": "/tmp/tank_battle_status.json",
+    "status_output": "/tmp/advisor_state.json",
+    "log_file": "/tmp/advisor.log",
+    "update_interval_sec": 5,
+    "llm_params": {
+      "max_tokens": 100,
+      "temperature": 0.1,
+      "enable_thinking": false,
+      "timeout_sec": 8
+    },
+    "prompt_template": {
+      "system": "你是一个游戏AI助手。只输出JSON格式的战术决策，不要任何解释。",
+      "user_format": "HP{hp}/{max_hp},敌人{enemy_count}个.回复JSON:{\"dist\":200,\"style\":\"aggressive\",\"threat\":2,\"target\":\"camp\"}",
+      "rules": {
+        "dist_range": [150, 350],
+        "style_options": ["aggressive", "balanced", "kite"],
+        "threat_range": [1, 3],
+        "target_options": ["camp", "enemies", "auto"]
+      }
+    },
+    "output_schema": {
+      "ts": "时间戳（必须>0表示激活）",
+      "dist": "理想交战距离",
+      "style": "战术风格",
+      "threat": "威胁等级",
+      "target": "攻击目标",
+      "lat": "LLM响应延迟秒"
+    },
+    "verified_working": "2025-10-03 18:57, dist=200 style=aggressive lat=1.7s"
+  },
+  "llm_services": {
+    "ports": {
+      "caocao": 8080,
+      "xiahoudun": 8081,
+      "xiahouyuan": 8082,
+      "advisor": 8083
+    },
+    "model": "Ornith-1.5-35B-Q4_K_M.gguf",
+    "binary": "/home/ibm/llama.cpp/build-hip/bin/llama-server",
+    "gpu_backend": "ROCm (AMD Radeon AI PRO R9700 x3)",
+    "health_check": "curl -s -m 2 http://127.0.0.1:{port}/health"
+  },
+  "game": {
+    "main": "src/tank_battle_deluxe.py",
+    "pilot": "src/oc_pilot.py",
+    "udp_port": 8089,
+    "status_files": [
+      "/tmp/tank_battle_status.json",
+      "/tmp/tank_fast.json"
+    ],
+    "camps": {
+      "enemy": {"x": 450, "y": 100, "hp": 888},
+      "player": {"x": 450, "y": 540, "hp": 888}
+    }
+  },
+  "database": {
+    "type": "highspeed_db (内存LRU + 硬盘JSON)",
+    "sync_interval_sec": 30,
+    "record_interval_sec": 2,
+    "files": [
+      "/tmp/hsdb_battle.json",
+      "/tmp/hsdb_tactics.json",
+      "/tmp/hsdb_evolution.json",
+      "/tmp/hsdb_game_state.json"
+    ],
+    "performance": {
+      "write_ops_sec": 1246820,
+      "read_ops_sec": 1902179
+    },
+    "warning": "数据库文件会持续增长（曾达28MB），定期清理可避免卡顿"
+  }
+}

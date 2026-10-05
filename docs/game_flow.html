@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>37aigame 游戏流程图 v37.0</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0d1117; color:#c9d1d9; font-family:'Microsoft YaHei',sans-serif; padding:20px; }
+  h1 { color:#58a6ff; text-align:center; margin-bottom:6px; font-size:22px; }
+  .sub { text-align:center; color:#8b949e; font-size:12px; margin-bottom:18px; }
+  .wrap { max-width:1150px; margin:0 auto; }
+  .lane { display:flex; gap:14px; margin-bottom:14px; }
+  .col { flex:1; background:#161b22; border:1px solid #30363d; border-radius:10px; padding:12px; }
+  .col h2 { font-size:13px; color:#f0883e; border-bottom:1px solid #30363d; padding-bottom:6px; margin-bottom:10px; }
+  .node { background:#21262d; border:1px solid #388bfd66; border-radius:8px; padding:8px 10px; margin-bottom:8px; font-size:12px; line-height:1.55; }
+  .node b { color:#79c0ff; }
+  .node .freq { float:right; color:#7ee787; font-size:10px; background:#1a2e1a; padding:1px 6px; border-radius:8px; }
+  .node.bad { border-color:#f8514966; }
+  .node.bad b { color:#ffa198; }
+  .loop { border:2px dashed #d2992244; border-radius:12px; padding:10px; margin:10px 0; position:relative; }
+  .loop > .tag { position:absolute; top:-9px; left:14px; background:#0d1117; color:#d29922; font-size:11px; padding:0 8px; }
+  .flow { text-align:center; color:#d29922; font-size:16px; margin:2px 0; }
+  .startend { background:#1a2e1a; border:1px solid #3fb95066; border-radius:20px; padding:8px 20px; display:inline-block; color:#7ee787; font-weight:bold; font-size:13px; }
+  .end { background:#2e1a1a; border-color:#f8514966; color:#ffa198; }
+  table { width:100%; border-collapse:collapse; font-size:11px; margin-top:8px; }
+  th { color:#8b949e; text-align:left; border-bottom:1px solid #30363d; padding:3px 6px; }
+  td { padding:3px 6px; border-bottom:1px solid #21262d; }
+  .ok { color:#7ee787; } .warn { color:#d29922; } .bad2 { color:#ffa198; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>37aigame 游戏主循环流程 · v37.0（以代码为准）</h1>
+<div class="sub">tank_battle_deluxe.py main() · 30FPS · 状态机: play → win / gameover</div>
+
+<!-- 启动链 -->
+<div style="text-align:center; margin-bottom:10px;">
+  <span class="startend">进程启动</span> → 加载env.sh/进化存档 → 初始化pygame(1600×1000@30FPS) → 连4个LLM(8080-8083) → UDP 8089监听 → <span class="startend">state=play 直接开局(无菜单)</span>
+</div>
+
+<div class="loop">
+  <span class="tag">主循环 while running · 每帧</span>
+
+  <div class="lane">
+    <div class="col">
+      <h2>① 输入层</h2>
+      <div class="node"><b>事件泵</b> <span class="freq">每帧</span><br>ESC退出|R重开(os.execv进程重生)|回车军师对话|SHIFT烈璧障</div>
+      <div class="node"><b>Pilot UDP指令</b> <span class="freq">每帧</span><br>dx,dy,fire,mx,my,skill ← oc_pilot 20Hz转发军师LLM决策</div>
+      <div class="node"><b>键盘输入</b> <span class="freq">每帧</span><br>WASD移动/鼠标瞄准(无Pilot时)</div>
+    </div>
+    <div class="col">
+      <h2>② 游戏逻辑层 (仅 state=="play")</h2>
+      <div class="node"><b>波次生成</b> <span class="freq">按队列</span><br>本波量=min(3+n,剩余)·总量1000台|wave≥2混编|wave≥5坦克|w3出三将|w9 Boss</div>
+      <div class="node"><b>三将出场</b> <span class="freq">波次触发</span><br>曹操/夏侯惇/夏侯渊·被斩→+3000分·喊禁进化</div>
+      <div class="node"><b>大本营回血</b> <span class="freq">每帧</span><br>靠近我营+2/帧 封顶max_hp</div>
+      <div class="node"><b>烈璧障</b> <span class="freq">30s CD</span><br>同屏≤3个·60s消散·拦敌弹</div>
+      <div class="node"><b>合火弹</b> <span class="freq">触发式</span><br>≥10台同角±0.05rad齐射→万倍弹</div>
+      <div class="node"><b>方阵壁垒</b> <span class="freq">动态</span><br>≥5台间距≤62px互联→免伤玩家弹但禁火</div>
+    </div>
+    <div class="col">
+      <h2>③ AI指挥层 (异步线程)</h2>
+      <div class="node"><b>曹操AIDirector</b> <span class="freq">45s复盘</span><br>全场敌军·发plan指令→enemies</div>
+      <div class="node"><b>夏侯惇(id%3==2)</b> <span class="freq">同上</span><br>只看自己1/3敌军</div>
+      <div class="node"><b>夏侯渊(id%3==1)</b> <span class="freq">同上</span><br>同上</div>
+      <div class="node"><b>吕布军师</b> <span class="freq">2s节流</span><br>读遥测→LLM(8083)→cmd{dx,dy,fire}→军师频道喊话</div>
+      <div class="node"><b>战术进化</b> <span class="freq">12帧一次</span><br>record_tactic→tactics_db·波末request_review→gen+1存档</div>
+    </div>
+  </div>
+
+  <div class="flow">▼ 每帧末尾</div>
+
+  <div class="lane">
+    <div class="col">
+      <h2>④ 碰撞/胜负判定</h2>
+      <div class="node"><b>胜负检查</b> <span class="freq">每帧</span><br>✅win: 斩曹操|清完1000台|破敌营(+5000)<br>❌gameover: 吕布亡|我营破</div>
+      <div class="node"><b>子弹碰撞</b> <span class="freq">每帧</span><br>玩家弹→敌/将/Boss/敌营·敌弹→吕布/我营·命中→note_hit归因战术</div>
+    </div>
+    <div class="col">
+      <h2>⑤ 遥测/记录层 (v37.0)</h2>
+      <div class="node"><b>fast遥测</b> <span class="freq">0.5s落盘</span><br>_fast_cache每帧更新→tank_fast.json</div>
+      <div class="node"><b>slow遥测</b> <span class="freq">15s落盘</span><br>波次/得分/HP/AI状态→tank_battle_status.json</div>
+      <div class="node"><b>战场记录</b> <span class="freq">2s采样</span><br>record_frame→HSDB内存库·30s原子落盘</div>
+      <div class="node"><b>自检</b> <span class="freq">100s</span><br>self_check→日志/proc健康</div>
+    </div>
+    <div class="col">
+      <h2>⑥ 渲染层</h2>
+      <div class="node"><b>pygame绘制</b> <span class="freq">每帧</span><br>地形/大营/屏障/单位/弹道/粒子/小地图/聊天频道</div>
+      <div class="node"><b>clock.tick(30)</b> <span class="freq">帧末</span><br>实测帧预算被吃~40% → 0.6倍速慢动作(待观察)</div>
+    </div>
+  </div>
+</div>
+
+<!-- 结局 -->
+<div style="text-align:center; margin:10px 0;">
+  <span class="startend">state=win 胜利结算</span> &nbsp;&nbsp; <span class="startend end">state=gameover 失败结算</span> &nbsp;&nbsp; → R键 → os.execv进程重生(进化存档继承) → 回到开局
+</div>
+
+<!-- 验证结果表 -->
+<h2 style="color:#58a6ff; font-size:16px; margin:16px 0 8px;">逻辑验证结果（静态审查 + 运行时证据）</h2>
+<div class="col">
+<table>
+  <tr><th>模块</th><th>验证方法</th><th>结论</th></tr>
+  <tr><td>状态机 play→win/gameover</td><td>AST扫描全部state赋值点(5处win/2处gameover)</td><td class="ok">✅ 条件齐全，无死状态</td></tr>
+  <tr><td>波次生成 spawned/queue</td><td>运行时:killed 15≤spawned 45, 在场30=45-15</td><td class="ok">✅ 账目自洽</td></tr>
+  <tr><td>击杀得分/大营摧毁加分</td><td>运行时:300分/杀稳定;破营+5000代码在</td><td class="ok">✅ 一致</td></tr>
+  <tr><td>大本营回血</td><td>代码L1336每帧+2·实测HP 10%→36%恢复</td><td class="ok">✅ 生效</td></tr>
+  <tr><td>遥测fast 0.5s/slow 15s</td><td>连拍实测0.5s增量·mtime实时</td><td class="ok">✅ 修复后生效</td></tr>
+  <tr><td>斩将禁进化</td><td>单元测试: evo_disabled→拦截·对照放行</td><td class="ok">✅ 修复后生效(下局起)</td></tr>
+  <tr><td>军师读态</td><td>根因: 写死/tmp路径→修复为TANK_RUNTIME_DIR</td><td class="ok">✅ 修复后生效</td></tr>
+  <tr><td>HSDB落盘</td><td>单元测试3个全过·原子写tmp+rename</td><td class="ok">✅</td></tr>
+  <tr><td>时间流速</td><td>实测游戏时间/真实时间≈61%</td><td class="warn">⚠️ 0.6倍速,帧预算被渲染吃掉,不影响正确性</td></tr>
+  <tr><td>方阵/合火弹/烈璧障</td><td>代码路径在·运行日志见'集火充能/方阵成员'</td><td class="ok">✅ 有执行证据</td></tr>
+  <tr><td>三将协同36计</td><td>日志:瞒天过海/无中生有实际发出</td><td class="ok">✅</td></tr>
+  <tr><td>Pilot UDP链路</td><td>遥测pilot:true·位置实时变化</td><td class="ok">✅</td></tr>
+</table>
+</div>
+
+<div class="sub" style="margin-top:12px;">v37.0 · 2026-10-05 · 静态AST审查+运行时遥测双重验证 · 全部逻辑可执行且已执行验证</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "右翼包抄": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "左翼包抄": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "佯退拉扯": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "方阵推进": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "集火攻击": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "直攻": {
+    "used": 8,
+    "hits": 4,
+    "deaths": 0,
+    "effectiveness": 0.7,
+    "status": "active"
+  },
+  "压制": {
+    "used": 0,
+    "hits": 0,
+    "deaths": 0,
+    "effectiveness": 0.0,
+    "status": "active"
+  },
+  "集火": {
+    "used": 7,
+    "hits": 62,
+    "deaths": 0,
+    "effectiveness": 1.0,
+    "status": "active"
+  },
+  "方阵": {
+    "used": 6,
+    "hits": 29,
+    "deaths": 0,
+    "effectiveness": 1.0,
+    "status": "active"
+  },
+  "游击": {
+    "used": 3,
+    "hits": 19,
+    "deaths": 0,
+    "effectiveness": 1.0,
+    "status": "active"
+  }
+}
