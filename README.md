@@ -1,93 +1,102 @@
-# 39aigame — 坦克大战AI集群作战系统 v39.0
+# 40aigame_bizhang — 烈璧障优化版 + 3D 渲染
 
-> **吕布(玩家/OpenClaw pilot) vs 曹操(AI集群)** — Pygame 实时AI对抗
->
-> v39.0 = 军师控制优化版：修复边界问题 + 增强提示词 + 后处理修正
+> **v40.1** = 烈璧障优化 + 可选 Panda3D 3D 渲染
 
----
+## 新特性：3D 渲染（v40.1）
 
-## ⚡ 快速启动
-
+### 启用方式
 ```bash
-cd ~/桌面/39aigame
-bash scripts/start_all.sh          # 一键启动全部服务
-bash scripts/stop_all.sh           # 一键停止
+cd ~/桌面/40aigame_bizhang
+source venv/bin/activate
+TANK_3D=1 python src/tank_battle_deluxe.py
 ```
 
-## 📁 项目结构
+### 3D 特性
+- **坦克 3D 模型**：车身、炮塔、炮管、履带
+- **子弹 3D 模型**：发光球体
+- **烈璧障 3D 模型**：环形墙 + 地面标记
+- **3D 地形**：军绿色地面、半透明边界墙
+- **灯光系统**：环境光 + 方向光
+- **俯视摄像机**：带透视效果
 
+### 技术架构
+- **方案 A**：Panda3D 做 3D 渲染，保留 2D 游戏逻辑
+- 游戏逻辑完全不变（AI 导演、军师系统、进化系统）
+- 3D 渲染失败时自动回退到 2D
+
+## 烈璧障特性（v40.0）
+
+### 设计
+- **完整圆形物理墙（360°无死角）**
+- **放置后位置固定**
+- **朝向=玩家炮塔方向（仅影响视觉，不影响物理阻挡）**
+
+### 阻挡规则
+1. ✅ **敌军子弹** - 不能穿过（触环即毁）
+2. ✅ **敌军身体** - 完全不能穿过环带和内侧（360°无死角，像一堵真正的墙）
+3. ✅ **敌军无法从任何角度绕过**（完整物理墙，必须破坏或等待消散）
+
+### 使用策略
+- 放置位置决定防御区域，朝向仅影响视觉呈现
+- 可以放置多个烈璧障形成交叉火力
+- 军师会自动触发烈璧障（当敌军接近时）
+- 敌军遇墙会尝试沿墙切向滑动，无法穿透
+
+## 快速启动
+
+### 2D 模式（默认）
+```bash
+cd ~/桌面/40aigame_bizhang
+bash scripts/start_all.sh
 ```
-39aigame/
-├── src/                    # 源码目录
-│   ├── tank_battle_deluxe.py   # 游戏主程序
-│   ├── channels.py              # 通讯系统（军师优化）
-│   ├── directors.py             # AI导演
-│   ├── oc_pilot.py              # Pilot控制
-│   └── ...
-├── config/                 # 配置文件
-│   └── env.sh                   # 环境变量
-├── scripts/                # 启动脚本
-│   ├── start_all.sh             # 一键启动
-│   ├── stop_all.sh              # 一键停止
-│   └── ...
-├── docs/                   # 文档目录
-│   ├── v39.0_军师控制优化详解.md
-│   ├── v39.0_部署指南.md
-│   ├── v39.0_游戏逻辑详解.md
-│   └── ...
-├── data/                   # 数据目录
-├── tests/                  # 测试目录
-├── 启动说明.md             # 详细启动说明
-├── CHANGELOG.md            # 更新日志
-└── VERSION                 # 版本号
+
+### 3D 模式
+```bash
+cd ~/桌面/40aigame_bizhang
+source venv/bin/activate
+TANK_3D=1 python src/tank_battle_deluxe.py
 ```
 
-## 🧠 核心特性
+## 版本历史
 
-### 军师控制优化 (v39.0)
-- ✅ 修复军师不工作问题
-- ✅ 修复边界卡住问题
-- ✅ 修复指令stuck问题
-- ✅ 增强提示词，添加边界警告
-- ✅ 后处理修正，强制离开边界
-- ✅ 调试信息输出
+- v40.1 - 3D 渲染支持（Panda3D）
+- v40.0_bizhang - 烈璧障优化版
+- v39.0 - 军师控制优化版
+- v36.0 - 架构重构版
 
-### AI集群作战
-- 曹操(8080) + 夏侯惇(8081) + 夏侯渊(8082)
-- 每1.5秒LLM决策，36计选计
-- 战术进化，跨局继承
+## 文件变更
 
-### 实时对抗
-- Pygame 30fps渲染
-- 20Hz UDP控制流
-- 实时遥测数据
+### v40.1 新增
+- `src/panda3d_integration.py` - Panda3D 3D 渲染集成层
+- `src/panda3d_renderer.py` - 独立 3D 渲染演示
+- `tests/test_3d_integration.py` - 3D 集成测试
 
-## 📚 文档
+### 修改
+- `src/tank_battle_deluxe.py` - 添加 3D 同步调用
+- `requirements.txt` - 添加 panda3d 依赖
 
-- [启动说明](启动说明.md) — 详细启动和配置说明
-- [军师控制优化详解](docs/v39.0_军师控制优化详解.md) — v39.0优化详解
-- [部署指南](docs/v39.0_部署指南.md) — 部署和配置指南
-- [游戏逻辑详解](docs/v39.0_游戏逻辑详解.md) — 游戏逻辑和架构
-- [更新日志](CHANGELOG.md) — 版本更新记录
+### v40.0 修改
+- `src/tank_battle_deluxe.py` - 烈璧障机制优化
+  - Barricade.blocks_point() - 检测内侧+环带
+  - Barricade.blocks_line() - 子弹路径检测
+  - 敌军移动逻辑 - 完全阻挡，尝试绕路
 
-## 🎯 系统要求
+### 新增
+- 军师自动触发烈璧障（当敌军接近时）
+- 调试信息输出
 
-- OS: Linux (Ubuntu 22.04+)
-- GPU: AMD GPU (ROCm/HIP)
-- Python: 3.10+
-- 内存: 32GB+
+## 遥测数据
 
-## 📊 项目统计
+- `/tmp/tank_fast.json` - 快遥测（0.5秒）
+- `/tmp/tank_battle_status.json` - 慢遥测（15秒）
 
-- Python源码: 23个文件
-- 文档: 28个Markdown文件
-- 脚本: 20个Shell脚本
+## 相关文档
 
-## 🔗 相关项目
+- `docs/PANDA3D_INTEGRATION.md` - 3D 渲染集成指南
+- `docs/v39.0_军师控制优化详解.md`
+- `docs/v39.0_部署指南.md`
+- `docs/v39.0_游戏逻辑详解.md`
 
-- 37aigame — 基础版本
-- 39aigame — 军师优化版本（当前）
+## 3D 截图
 
----
-
-*39aigame v39.0 — 让军师真正掌控战场*
+MEDIA:/tmp/tank3d_integration_test.png
